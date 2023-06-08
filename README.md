@@ -1,4 +1,4 @@
-# arduino button box
+#         Arduino Button Box
 
 Just a button-box that I made with and arduino-micro and some buttons.
 
