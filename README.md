@@ -1,6 +1,6 @@
 # Arduino Button Box
 
-Just a button-box that I made with and arduino-micro and some buttons.
+Just a button-box that I made with and arduino pro micro and some buttons.
 
 blank.ino is a black file in witch the buttons do nothing.
 
