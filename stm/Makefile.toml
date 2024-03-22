@@ -1,0 +1,7 @@
+[tasks.flash]
+script = [
+    "cargo objcopy --bin f103 --release -- -O binary f103.bin",
+    "echo \"press enter after the reset button has been pressed ...\"",
+    "read",
+    "sudo dfu-util -d 1eaf:0003 -a 2 -D f103.bin"
+]

@@ -217,10 +217,3 @@ void CheckALLPoten(void) { //============================POTENTIOMETERS=========
         }
       }
 }
-
-
-    
-
-
-    
-    

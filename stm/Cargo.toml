@@ -1,0 +1,19 @@
+[package]
+name = "f103"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stm32f1xx-hal = { version = "0.10", features = [ "stm32f103" ] }
+cortex-m-rt = { version = "0.7.1", features = ["device"] }
+cortex-m = "0.7.6"
+panic-semihosting = "0.6"
+keyberon = { git = "https://github.com/TeXitoi/keyberon", rev = "352bbe5dd20f294ed1b337195b6e7a3af406a614" }
+usb-device = "0.2.8"
+cortex-m-rtic = "1"
+
+[profile.release]
+lto = true
+incremental = false
+opt-level = "z"
+debug = true
